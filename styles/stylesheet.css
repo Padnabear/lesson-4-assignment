@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0 0 0 0;
+  m
+  font-family: Helvetica, Arial, sans-serif;
+}
+.banner {
+  background-color: #089cc9;
+  color: white;
+  font-size: 50px;
+  border: solid 10px #089cc9;
+  width: 100%;
+  float: left;
+  position: relative;
+  padding-left: 2em;
+}
+.banner p {
+  font-style: italic;
+}
+.banner p:nth-child(3) {
+  padding-bottom: 1.5em;
+}
+.banner h1 {
+  font-size: 75px;
+  padding-left: 1.3em;
+  padding-top: 1em;
+}
+.banner::before {
+  content: "";
+  width: 4000px;
+  left: -2000px
+}
+.navbar {
+  list-style: none;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #b3b8ba;
+  border: solid 1em #b3b8ba;
+  display: inline-block;
+  padding-left: 9.2em;
+  padding-bottom: 0;
+  position: relative;
+}
+.navbar li {
+  display: inline-block;
+  padding: 1em;
+  position: relative;
+}
+.navbar li:after {
+  content: "/";
+  width: 2px;
+  height: 1em;
+  position: absolute;
+  right: 0;
+  top: 1em;
+  bottom: 0;
+}
+.navbar li:last-of-type:after {
+  content: none;
+}
+.navlink{
+  text-decoration: none;
+  color: black;
+}
+.main-body {
+  float: left;
+  width: 60%;
+  position: relative;
+  font-size: 26px
+}
+#secondpara {
+padding: 1.5em 3em 3em 8.8em;
+font-weight: normal;
+}
+#leadparagraph {
+  color: #317c99;
+  padding: 3em 3em 1.5em 8.8em;
+  font-weight: 1000;
+}
+blockquote{
+  color: #55b0d4;
+  padding: 3em 3em 3em 7.7em;
+}
+#quote {
+  font-size: 30px
+}
+aside {
+  box-sizing:
+  border: 3px solid #fff;
+  float: right;
+  width: 30%;
+  position: relative;
+}
+footer {
+  clear: both;
+  background-color: grey;
+  margin-bottom: 0;
+  position: relative;
+}
