@@ -16,7 +16,7 @@
 .banner p {
   font-style: italic;
 }
-.banner p:nth-child(3) {
+.banner p:last-child {
   padding-bottom: 1.5em;
 }
 .banner h1 {
@@ -63,12 +63,27 @@
   position: relative;
   border: 1px solid white;
 }
+.main-body-p2 {
+  float: left;
+  width: 100%;
+  padding:  0.5em 0.5em 0.5em 0.5em;
+  position: relative;
+  border: 1px solid white;
+}
 .main-body-text {
   float: left;
   width: 100%;
   position: relative;
   font-size: 22px;
   padding: 1.5em 0em 0.5em 11em;
+  margin: 0em 0em 0em 0em;
+}
+.main-body-text-p2 {
+  float: left;
+  width: 100%;
+  position: relative;
+  font-size: 22px;
+  padding: 1.5em 11em 0.5em 11em;
   margin: 0em 0em 0em 0em;
 }
 .main-body-text:only-of-type{
