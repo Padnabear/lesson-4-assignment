@@ -61,14 +61,12 @@
   width: 65%;
   padding:  0.5em 0.5em 0.5em 0.5em;
   position: relative;
-  border: 1px solid white;
 }
 .main-body-p2 {
   float: left;
   width: 100%;
   padding:  0.5em 0.5em 0.5em 0.5em;
   position: relative;
-  border: 1px solid white;
 }
 .main-body-text {
   float: left;
@@ -107,7 +105,6 @@ h2{
   font-size: 30px;
 }
 .sidebar {
-  box-sizing:
   border: 3px solid white;
   float: right;
   width: 35%;
