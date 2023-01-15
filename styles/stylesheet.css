@@ -7,7 +7,7 @@
 .banner {
   background-color: #089cc9;
   color: white;
-  font-size: 50px;
+  font-size: 150%;
   width: 100%;
   float: left;
   position: relative;
@@ -20,7 +20,7 @@
   padding-bottom: 1.5em;
 }
 .banner h1 {
-  font-size: 75px;
+  font-size: 200%;
   padding-left: 1.7em;
   padding-top: 1em;
 }
@@ -29,7 +29,7 @@
   float: left;
   width: 100%;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 125%;
   background-color: #d3d3db;
   display: inline-block;
   padding-left: 7.5em;
@@ -72,7 +72,7 @@
   float: left;
   width: 100%;
   position: relative;
-  font-size: 22px;
+  font-size: 100%;
   padding: 1.5em 0em 0.5em 11em;
   margin: 0em 0em 0em 0em;
 }
@@ -80,36 +80,36 @@
   float: left;
   width: 100%;
   position: relative;
-  font-size: 22px;
+  font-size: 100% ;
   padding: 1.5em 11em 0.5em 11em;
   margin: 0em 0em 0em 0em;
 }
 .main-body-text:only-of-type{
-  font-size: 30px;
+  font-size: 100%;
   padding-left: 8em;
 }
 #bluetext {
   color: #317c99;
-  font-size: 30px;
+  font-size: 100%;
   padding-left: 8em;
   font-weight: bold;
 }
 #quote{
-  color: #55b0d4;
+  color: #267797;
   padding: 3em .6em 3em 8em;
-  font-size: 30px;
+  font-size: 120%;
   float: left;
   width: 100%;
 }
 h2{
-  font-size: 30px;
+  font-size: 110%;
 }
 .sidebar {
   border: 3px solid white;
   float: right;
   width: 35%;
   position: relative;
-  font-size: 22px;
+  font-size: 100%;
   padding :1em 13em 1em 0em;
 }
 .sidebartext {
@@ -119,7 +119,7 @@ padding: 2em 0em 1em 0em;
   padding-top: 2em;
 }
 .bluelink {
-  color: #55b0d4;
+  color: #267797;
 }
 footer {
   clear: both;
@@ -142,7 +142,7 @@ footer li:after {
   right: 0;
   top: .6em;
   bottom: 0;
-  font-size: 23px;
+  font-size: 100%;
   color: white;
 }
 footer li:last-of-type:after {
@@ -150,14 +150,23 @@ footer li:last-of-type:after {
 }
 .footer-text {
   color: white;
-  font-size: 18px;
+  font-size: 95%;
   padding-top: 3em;
   padding-bottom: 3em;
-  margin-left: 35em;
-  margin-right: 35em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footerlink {
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 95%;
+}
+.hidden {
+  position: relative;
+  left: -100000px;
+  top: auto;
+  font-size: 20%
+}
+.hidden:focus {
+  left: 0;
 }
